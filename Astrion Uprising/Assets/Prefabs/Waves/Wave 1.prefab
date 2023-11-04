@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2633514346652829975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1164604344421606840}
+  - component: {fileID: 8487823321392394632}
+  m_Layer: 0
+  m_Name: Wave 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1164604344421606840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633514346652829975}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1116408488019462069}
+  - {fileID: 4499875745935401542}
+  - {fileID: 1403489541561915390}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &8487823321392394632
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633514346652829975}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: ef881038413c14e5c867eef59d903501, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -8507005063548492828, guid: ef881038413c14e5c867eef59d903501, type: 2}
+    value: {fileID: 2662178745423063939}
+  - key: {fileID: 7880899860983767108, guid: ef881038413c14e5c867eef59d903501, type: 2}
+    value: {fileID: 1584554354458283632}
+  - key: {fileID: 6154129175105040794, guid: ef881038413c14e5c867eef59d903501, type: 2}
+    value: {fileID: 4104328065938553800}
+  m_ExposedReferences:
+    m_References: []
+--- !u!1001 &5135866164995063057
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1164604344421606840}
+    m_Modifications:
+    - target: {fileID: 183905120359474437, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_Name
+      value: Starfire Raider (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 336.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 463.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 709.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.30819514
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.07005475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9251432
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.21028122
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 8.729
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -115.649
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+--- !u!4 &1403489541561915390 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+  m_PrefabInstance: {fileID: 5135866164995063057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4104328065938553800 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9201913631603984089, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+  m_PrefabInstance: {fileID: 5135866164995063057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6575878635853311322
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1164604344421606840}
+    m_Modifications:
+    - target: {fileID: 183905120359474437, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_Name
+      value: Starfire Raider
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 312.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 468.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 741
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.30819514
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.07005475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9251432
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.21028122
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 8.729
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -115.649
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+--- !u!4 &1116408488019462069 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+  m_PrefabInstance: {fileID: 6575878635853311322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2662178745423063939 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9201913631603984089, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+  m_PrefabInstance: {fileID: 6575878635853311322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7660258460627126441
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1164604344421606840}
+    m_Modifications:
+    - target: {fileID: 183905120359474437, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_Name
+      value: Starfire Raider (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 311.589
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 450.37885
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 715.7029
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.30819514
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.07005475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9251432
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.21028122
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 8.729
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -115.649
+      objectReference: {fileID: 0}
+    - target: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+--- !u!95 &1584554354458283632 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9201913631603984089, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+  m_PrefabInstance: {fileID: 7660258460627126441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4499875745935401542 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6069851045133839087, guid: 50955cdbab41d4169a51b25f58f7b5af, type: 3}
+  m_PrefabInstance: {fileID: 7660258460627126441}
+  m_PrefabAsset: {fileID: 0}
